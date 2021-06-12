@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<Ana Caroline Dantas>*
-- Email: *\<caroline.dantas.016@ufrn.edu.br>*
-- Turma: *\<IMD0030-T01>*
+- Nome: Ana Caroline Dantas
+- Email: caroline.dantas.016@ufrn.edu.br
+- Turma: 01
 
 # Questões Finalizadas
 
