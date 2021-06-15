@@ -2,8 +2,15 @@
 
 std::vector<unsigned int> fib_below_n( unsigned int n )
 {
-    // TODO: adicione o seu código aqui.
-
-    // TODO: Isto é apenas um STUB. Troque o retorno pelo que você julgar correto.
+	// std::vector<unsigned int> fib = {};
+	// if (n > 1) {
+	// 	fib = {1, 1};
+	// 	int soma = fib[0] + fib[1];
+	// 	while (soma < n) {
+	// 		fib.push_back(soma);
+	// 		soma = fib[fib.size()-1] + fib[fib.size()-2];
+	// 	}
+	// }
+	// return fib;
     return std::vector<unsigned int>{};
 }
