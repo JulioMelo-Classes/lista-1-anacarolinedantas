@@ -1,4 +1,5 @@
 #include "function.h"
+using namespace std;
 
 /*! 
  * Finds and returns a pair with the first instance of the smallest element
@@ -12,8 +13,22 @@
 
 std::pair<int,int> min_max( int V[], size_t n )
 {
-    // TODO: Adicione aqui sua solução.
+	int menor = V[0], maior = V[0];
+	std::pair<int,int> indices = {0, 0};
 
-    // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-    return { -1, -1 };
+	if (n == 0) 
+		indices = {-1, -1};
+	else {
+		for (int i = 1; i < n; i++) {
+			if (V[i] < menor) {
+				menor = V[i];
+				indices.first = i;
+			}
+			if (V[i] >= maior) {
+				maior = V[i];
+				indices.second = i;
+			}		
+		}	
+	}
+    return indices;
 }
