@@ -5,17 +5,29 @@
  */
 
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
 #include <iomanip>
-using std::setprecision;
-
-// Se desejar, crie funções aqui, antes do main().
+using namespace std;
 
 int main(void)
 {
-    // TODO: Adicione aqui a sua solução.
+    int x, total = 0, cont[5] = {0};
+
+    while(cin >> std::ws >> x) {
+		total++;
+        if (x >= 0 && x < 25) 
+            cont[0]++;
+        else if (x >= 25 && x < 50)
+            cont[1]++;
+        else if (x >= 50 && x < 75)
+            cont[2]++;
+        else if (x >= 75 && x < 100)
+            cont[3]++;
+        else
+            cont[4]++;         	 
+    }
+	
+	for (int i = 0; i < 5; i++)
+		cout << setprecision(4) << (double)cont[i]*100/total << endl;
 
     return 0;
 }
