@@ -1,7 +1,8 @@
-#include "function.h"
-
+//#include "function.h"
 #include <iterator>
+#include <string>
 using std::iter_swap;
+using std::string;
 
 /*! 
  * Reverse de order of elements inside the array.
@@ -10,5 +11,9 @@ using std::iter_swap;
 template <size_t SIZE>
 void reverse( std::array< std::string, SIZE > & arr )
 {
-    /*codigo*/
+    for(int i = 0; i < SIZE/2; i++) {
+		string aux = arr[i];
+		arr[i] = arr[SIZE-i-1];
+		arr[SIZE-i-1] = aux;
+	}
 }
