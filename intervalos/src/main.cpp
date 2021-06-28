@@ -8,6 +8,7 @@
 #include <iomanip>
 using namespace std;
 
+/*ok!*/
 int main(void)
 {
     int x, total = 0, cont[5] = {0};

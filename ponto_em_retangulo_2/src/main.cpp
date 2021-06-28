@@ -18,7 +18,7 @@ using std::max;
 
 // Coloque aqui qualquer função auxiliar que desejar.
 
-
+/*puts, era só reutilizar o que foi feito na retangulo_1*/
 int main(void)
 {
     // TODO: Adicione aqui seu código.

@@ -7,6 +7,7 @@
 #include <stdlib.h>
 using namespace std;
 
+/*blz!*/
 int main( void )
 {
     int m, n, soma, x;

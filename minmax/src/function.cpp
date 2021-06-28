@@ -10,7 +10,7 @@ using namespace std;
  *
  * @return A pair of indexes to the first smallest and last largest values.
  */
-
+/*blz!*/
 std::pair<int,int> min_max( int V[], size_t n )
 {
 	int menor = V[0], maior = V[0];
